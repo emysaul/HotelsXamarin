@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HotelProject.HotelPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Both">
+
+            <AbsoluteLayout BackgroundColor="White">
+
+                <Image Source="Ada"
+                   HeightRequest="300"
+                   Aspect="AspectFill" />
+
+                <Frame WidthRequest="350"
+                   HeightRequest="480"
+                   Margin="10" 
+                   BackgroundColor="White"
+                   CornerRadius="15"
+                   AbsoluteLayout.LayoutFlags="YProportional"
+                   AbsoluteLayout.LayoutBounds="0,1" >
+
+                    <StackLayout>
+
+
+                        <Label Text="Fancy Hotel" 
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           TextColor="red" />
+
+                        <Label Text="&#xf017; 7 May, 2018 | 4:26" 
+                           FontSize="14"
+                           FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular"/>
+
+
+                        <Label Text="&#xf017; Mt Carmeri Pt, New York, NY" 
+                           FontSize="14"
+                           FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular"/>
+
+                        <StackLayout  Orientation="Horizontal" Spacing="5" WidthRequest="350"  >
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="Hotel" TextColor="gray"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="Hostel" TextColor="gray"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="Porking" TextColor="gray"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="Restaurant" TextColor="gray"/>
+                            </Frame>
+                        </StackLayout>
+
+                        <BoxView HeightRequest="1" Margin="0,20,0,0" BackgroundColor="red" HorizontalOptions="Fill" />
+
+                        <Label Text="About Hotel" FontSize="16" FontAttributes="Bold" Margin="0,20,0,0" />
+
+                        <ScrollView Orientation="Vertical">
+                            <Label  Text="¿Cómo definir algo tan complejo, ctradictorio, tradictorio, bajo un microscopio, hay qtradictorio, bajo un microscopio, hay qtradictorio, bajo un microscopio, hay qtradictorio, bajo un microscopio, hay qtradictorio, bajo un microscopio, hay qtradictorio, bajo un microscopio, hay qbajo un microscopio, hay qtradictorio, bajo un microscopio, hay qontradictorio, bajo un microscopio, hay quien lo define en términos químicos y quiénes hacen poesía de él. Amor es inspiración, a veces hasta sufrimiento, todos quieren vivirlo, la mayoría lo han sentido alguna vez, pero nuestra cuenta pendiente sigue siendo poder explicarlo. ¿Cómo definir algo tan complejo, contradictorio, fascinante y que al mismo tiempo nos hace sentir tan vivos? No puede observarse bajo un microscopio, hay quien lo define en términos químicos y quiénes hacen poesía de él. Amor es inspiración, a veces hasta sufrimiento, todos quieren vivirlo, la mayoría lo han sentido alguna vez, pero nuestra cuenta pendiente sigue siendo poder explicarlo.¿Cómo definir algo tan complejo, contradictorio, fascinante y que al mismo tiempo nos hace sentir tan vivos? No puede observarse bajo un microscopio, hay quien lo define en términos químicos y quiénes hacen poesía de él. Amor " FontSize="12"  Margin="0,10,0,0" />
+                        </ScrollView>
+                        
+                        <StackLayout Orientation="Horizontal">
+                            <Frame  HorizontalOptions="Start" BackgroundColor="#4CB7FE"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="&#xf053; Back" 
+                                   FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular" TextColor="white"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="&#xf017;" FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular" TextColor="#4CB7FE"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="&#xf017;" FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular" TextColor="gray"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="&#xf017;" FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular" TextColor="gray"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="&#xf017; Back" FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular" TextColor="gray"/>
+                            </Frame>
+                            <Frame  HorizontalOptions="Start"  CornerRadius="20" Padding="10,10,10,10"  Margin="0,20,0,0" BorderColor="gray"  >
+                                <Label Text="&#xf017;" FontFamily="Font Awesome 5 Free-Regular-400.otf#Font Awesome 5 Free Regular" TextColor="gray"/>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
